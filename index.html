@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robot" content="follow">
+    <meta name="description" content="Clon de la pagina principal de google">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Google</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-right-section">
+                <li>
+                    <a href="">Gmail</a>
+                </li>
+                <li>
+                    <a href="">Imgenes</a>
+                </li>
+                <li class="menu-icon">
+                    <a href=""></a>
+                </li>
+                <li class="perfil-icons">
+                    <a href="">
+                        <img src="data:image/png;base64,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" alt="Tu foto de perfil">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="main-logo">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADgCAMAAADCMfHtAAAA81BMVEX///9ChfTqQzX7vAU0qFPA38YhpEcppUyQyZ0+g/Qre/P7ugD7twA2f/Tz9/45gfTqPi/pNiUkePPpLxvpMyHoKRL2u7jqPS1mmPW6zvrt8v7++vqBqffO3Pu3zPpYkPX98/LzoZ2WtvjI2Ptwnvau17etxfnf6P2ivvn1sa392pT2+f70qqb75OPrSz5Oi/T509HZ5Pz4ysj+8dr80HH+7c3/+Oz7wzv95bb93qH81H/xlI7sXFLta2L92Izve3SHrffh8OS93sQHoDz8yFDymJIPcvPvfXbtbGT+9ub8x038zGLoEwDrUUX+7tD957v7wTHcCfvvAAAHvUlEQVR4nO2be1/aSBSGQdvtJiQGcuGuAWRBVETRWq1Y2W279rKu+/0/zWbmTC4ziVbA6NZ9n59/QCbMyZs5c+acSSwUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/hfs7T33FeTH3navbukBpj9vNJ/7ah6f7b5tWppWZGiWafuNJzP9+2+M1/kaaRRNEhehmdZWvjYj/vj4S8CveZpo+mYxjWb6T+Orr3959erVmzwVDux4/KSR1OwncdXcFbb1aNB0vej7xSDWhELtXn52I/JW2Bcequn+YEiHhlt13SKFTzEXc1bYNoW+/jB5uNm2mcAX4KU7QqC5qbYcFa2nEZivwiObC7T8rEzmqZbEXBXSFLTq+fT+QPJUSD6qTXLp/MHkqZDWCfuZk9AcFQ74EJo7efS9ADkqnFCanUfXi5CfwiF3UmvRIexMR93uaNq5o/n47Hz3/OzvO1qbjcHOYFuO3BkKx9X97n51vOCVpSAn1RebhaMbz60EuN7NfivVenxiGCWGYXx/m2rd2ynqpmWZpt0/CnINTiGtsPO55jAbrrO2v7AoiT7PPhcKpCO3Ul4TlCuecgGnn4zSekjJePdVbh7oUQmj2fOCxSmkFHa9SmhirVKZLi2vIBZDa4HcujVz1iTcWSfRfJbQRxrPk7+uhxk+x2xPeCmjKmzNXMmE93kFhTyfMdXceiMDaums1dYUarVY4q6xrmK8j/udWEr5WcxS2DoIbYS+4lwsLXCD31NzW9Wtp/jziLcckNGy6zmu54ov5XAynhnhyBnsT0jcDbv1rbBCM82Et6oKZyQwmIizA+GtXnVZhU1SqKbcGeU+3YVrMu7MWBhtTb+Qx9Yu6WdfDaHvwzH7tlsijYYIqj3q1qyzOLrRmJjZCrvkot4VD6NVchqvk79C5smHnnJHpyTRoVjwjisqvTsNm7/TgXX+ZUgZvh7l8j09S2HHS3YZMGOeUrtaUuEeKVQLiLsUcmNr3mF85phfT/mAfX7Lh7D0LdERSTTO2GcK23bibtKgKgo/05jF62DHUQ4shpm54JuaRKiQ5FSk9aHKfco5jOSUpJ7WS3xUg09NCmqSKV9LK6zINjpdEc+WDTZ1bqOvHPXrSSaamIddmvbyuTfl0D4N4ZnUessPGqcit1DSw00zpfCQj1hFnHB4FS6Mtb/SucWD6PHwpt97DncvM4ill+XUEAYJALuE8k2h8DeJUX5M43ob9qKsvMw/ZIW8Oxqw1ujAqYWJxcWyXrppZi4XEnzXTQ8WxNghE4xpmgRLRUmdhYwTfjRYMCwtI6a1LVXhBdNUCULZ+MITuVPNORgtOYAMHmq0+wp8npxz9/Iy4zY/6nQKu1zLe6U1OsqnoZoA76QUXnGF0+nME8t+xbtS7umCzMlNU5tQiatgw2wF6XGLFKq3kxSOCx+4lg9K6zk/eiKitq7sBbHJKSv8woVVwmTCrXU7K+kLy6f7cm9yr0YhHq0Mhd5jjeF1IiuseZcrJd0CWqbM+V3ttI/DY1Hl0efhPHse0vC5S0cXmaZINe7Y2aa9RmvOPn/hsbQrn7BYLFVW3vR6WKXVoezNlk5FU4gN4ezN+6FOmQj3rn1uvSafccCPsfqG1kOpWlp8PRRJ0tXjDJ/Ap2cw+jzd1CCB4taLnEYaxFG8hJzQeEmRaD1yXfIV64c5Da9eypfJ0zrXKyrcE1WbNVFmyYZ4JBVtpl5SXpqY/pSLMycN3ZSnaCGfKC+9ZZ8fmJfSLXOTt/GmUlttwRAVBhtGvxGH86O5ePhUNMMIGNYWo/CcqjgwTegp/RPWFqffxAH+TdQW8WyYZ9YWBVonnEjimBXE3vUKaz6TGD4s1Ezb7w0ajUGvb4b6inr8ROqC4oB7U+0EzlMVOxphaXMa1ofvWUV4/EHUwMYxNYf1oc/egWhuFUX/qsIp3bUKt9E6vPa4ZFfy28XZmMQlt2UyogfBlpVcw2Zhouh4niOyKqqdGLdxjW/ENX4Ue+pRjc/e9ogMqjX+hRvb8FxhsLzaGAb0bOU1BYFZl9KQ1k16n2atEzWfZezT7Ma/Vt8VsDIVFq6dlI3EXtDSDH09pVGz9IF63hfFvHOZvLtvU3ttUjXVl2zovey9tkLXK0s23NnKI8jZrNvS+yaBu+5kPFOs1tx4v9StKAtz67u0X/rpVG5uxP5v2TuJ6unjmzdv4rdNxjdO5CuBt664KZygOagHE4TQi/O7aqrqZTAH+Z53VuLx9X2JNr2N0slxunkwIQt6u0n1Ic+Jf/+V8Ud82vTKo03vzH31lRhuNgaDre2jjftOah1WR6Pq4V2mv96en5/fZsjjNDe3Bg1aFnlh5t9x3pjb6Dzoqv+r8JJKaz/3ZTwqcvXE89Jnf3b5iDR7ulyHsk2MH2yh/Exs121LHjDKFu1nu6LHht5Lire8C3v8+bP1cqYh7dTERdomPXqyh/f96OeiQRItvT1obPUm4tvLGcKAuRklS2aysHhBzKVHwDzxfWkvk2/Z0lNg0783c/opabaD7F4TdUvxqd4if1qag75lB/l9vXfPPvvPzwv+lxUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICH8y8g46uTf+TnuwAAAABJRU5ErkJggg==" alt="">
+        </section>
+
+        <section class="main-input">
+            <div class="main-input-container">
+                <span class="search-icon">
+
+                </span>
+                <input type="text">
+                <a class="micro-icon" href=""></a>
+            </div>
+        </section>
+
+        <section class="main-buttons">
+            <div>
+                <button>Buscar con Google</button>
+            </div>
+            <div>
+                <button>Ir a Cuenta</button>
+            </div>
+        </sectio>
+    </main>
+    <footer>
+        <ul class="footer-left">
+            <li>
+                <a href="">Publicidad</a>
+            </li>
+            <li>
+                <a href="">Negocios</a>
+            </li>
+            <li>
+                <a href="">Acerca de</a>
+            </li>
+            <li>
+                <a href="">Como funciona la busqueda</a>
+            </li>
+        </ul>
+        <ul class="footer-right">
+            <li>
+                <a href="">Privacidad</a>
+            </li>
+            <li>
+                <a href="">Condiciones</a>
+            </li>
+            <li>
+                <a href="">Preferencias</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
